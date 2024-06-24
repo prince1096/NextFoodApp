@@ -28,6 +28,8 @@ export default function EditableImage({ link, setLink }) {
   //   }
   // }
 
+  console.log(link);
+
   async function handleFileChange(ev) {
     const files = ev.target.files;
     if (files?.length === 1) {
