@@ -17,10 +17,10 @@ export default function MenuItemTile({ onAddToCart, ...item }) {
         <Image
           src={image}
           alt="pizza"
-          className="max-h-auto max-h-24 block mx-auto"
-          height={900}
+          className="max-h-auto max-h-[200px] block mx-auto object-contain w-[240px] "
+          height={300}
           width={300}
-          objectFit="cover"
+          //   objectFit="contain"
           //   layout="responsive"
         />
       </div>

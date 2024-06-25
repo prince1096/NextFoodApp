@@ -29,9 +29,9 @@ const Header = () => {
         <div className="flex gap-8 ">
           <nav className="flex gap-8  items-center text-gray-500 font-semibold">
             <Link href={"/"}>Home</Link>
-            <Link href={"/"}>Menu</Link>
-            <Link href={"/"}>About</Link>
-            <Link href={"/"}>Contact</Link>
+            <Link href={"/menu"}>Menu</Link>
+            <Link href={"/#about"}>About</Link>
+            <Link href={"/#contact"}>Contact</Link>
           </nav>
 
           <nav className="flex gap-8 items-center font-semibold">
